@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+  }
+  .all_in {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  form {
+    margin-bottom: 16px;
+  }
+  
+  li {
+    list-style: none;
+    margin-bottom: 8px;
+  }
+  .button_active > button{
+    margin: 14px;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+  }
+  hr{
+    width: 300px;
+  }
+  .button_active > button:hover{
+
+    background-color: aqua;
+  }
+  .form_nhap > button{
+    /* align-items: center;
+    width: 300px; */
+    height: 25px;
+    margin-left: 20px;
+  }
+  .form_nhap > input{
+    height: 20px;
+    width: 200px;
+  }
+  item {
+    /* display: flex; */
+    left: 0px;
+    width: 400px;
+  }
+  .item > span {
+    margin: 0 20px 0 30px;
+  }
